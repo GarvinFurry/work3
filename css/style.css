@@ -87,8 +87,8 @@ a{
 	.head{
 		margin-bottom: 20px;
 	}
-	.img {
-		display: none;
+	.head1 {
+		margin-left: 250;
 	}
   .body1{
     margin-bottom: 15px;
@@ -99,7 +99,7 @@ a{
 	margin-bottom: 15px;
 	}
 	.body1{
-		margin-left: 0;
+		margin-left: 250px;
 		margin-bottom: 20px;
 	}
 }
