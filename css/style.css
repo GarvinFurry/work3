@@ -10,22 +10,23 @@ body{
 .body1{
   position: relative;
   margin-top: 50px;
-  width: 100%;
+  padding-left: 0%;
   height: 500px;
 }
-.text2{
+.b{
   position: absolute;
-  bottom: 50%;
+  bottom: 40%;
   font-size: 20px;
+  padding-left: 60px;
   font-weight: bold;
   color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  left: 10%;
+
 }
-.text1{
+.a{
   position: absolute;
-  bottom: 70%;
-  left: 10%;
+  padding-left: 60px;
+  bottom: 55%;
   font-weight: lighter;
   font-size: 40px;
   color: #fff;
@@ -34,7 +35,7 @@ body{
 .btn{
   position: absolute;
   bottom: 30%;
-  left: 10%;
+  padding-left: 58px;
   width: 100%;
   height: 30px;
 }
@@ -64,10 +65,11 @@ a{
 }
 .link2{ border: solid white;
   border-radius: 20px;
-  width: 100px;
-  height: 15px;
-  padding: 5px;
+  width: 90px;
+  height: 12px;
+  padding-bottom: 10px;
   text-align: center;
+  padding-top: 5px;
   
 }
 .logo{
@@ -83,6 +85,7 @@ a{
 @media screen and (max-width: 700px) {
 	.body{
 		margin-bottom: 15px;
+    height: fit-content;
 	}
 	.head{
 		margin-bottom: 20px;
